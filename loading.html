@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>design ideas</title>
+  <style>
+    body {
+      color: white;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+
+    .animation {
+      margin: auto;
+      width: 127px;
+      height: 96px;
+      overflow: hidden;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    /*  */
+    #SA_logo_svg {
+      visibility: hidden;
+    }
+
+    #pentagon_curvedTop {
+      opacity: 0;
+    }
+
+    /* click to play anim */
+    #animate {
+      margin: 0 auto;
+      width: 100px;
+      height: 30px;
+      padding: 4px;
+      text-align: center;
+      /*   background-color:rgba(94, 57, 41, .3); */
+      cursor: pointer;
+      background-color: #cccccc;
+    }
+
+
+  </style>
+</head>
+<body>
+
+
+  <div class="animation"><span id="charsCustom"></span>
+    <svg id="SA_logo_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 549.32 411.5" style="overflow:visible"><defs><clipPath id="clip-path" transform="translate(-85.34 -142.55)"><path id="SA_letters_div" d="M612.71,253.6C529.46,343.49,445.59,434,360.14,526.28c-84.16-91-168-181.75-252.85-273.49,26.88-18.68,52.3-36.39,77.78-54,12.79-8.85,25.07-18.46,38.37-26.53,16.5-10,30.21-15.52,48.83-15.22,63.92,1,127.86.77,191.79.32,10.19-.07,17.28,3.33,25.31,9.14,37.13,26.83,74.94,52.71,112.47,79C605.3,247.85,608.6,250.5,612.71,253.6Z" fill="none" clip-rule="evenodd"/></clipPath></defs><title>S&amp;amp;A_solutions_logo_v2</title><path id="gray_bg" d="M634.66,250.2c-90.48,100.16-181.63,201-274.5,303.85L85.34,249.3c29.21-20.82,56.84-40.56,84.54-60.2,13.9-9.87,27.25-20.58,41.7-29.57,17.93-11.15,32.83-17.3,53.07-17,69.47,1.15,139,.86,208.45.35,11.07-.07,18.78,3.72,27.5,10.19,40.36,29.9,81.45,58.73,122.25,88C626.6,243.79,630.19,246.74,634.66,250.2Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3" fill-rule="evenodd"/><g id="solutions_txt"><path d="M410.68,541.45a14,14,0,0,0,6.12-4c2.11-2.35,2.53-4.78,1.46-6.57s-2.55-1.61-5.7-.07c-4.32,2.17-8,2.1-10.39-1.89-2.78-4.69-2-11.51,2.79-16.86a15.33,15.33,0,0,1,6-4.39l1.94,6.15a11.75,11.75,0,0,0-5,3.44c-2,2.22-2.22,4.52-1.38,6,1,1.75,2.64,1.25,6.06-.33,4.66-2.21,7.85-1.57,10.15,2.31,2.73,4.6,2.42,11.43-3.16,17.66-2.33,2.59-5.1,4.34-6.76,4.76Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M440.93,495.07c5.34,9,4.53,19-1.41,25.61s-13.21,4.5-17.85-3.33c-4.88-8.23-4.64-18.72,1.37-25.42C429.28,485,436.43,487.49,440.93,495.07Zm-14.48,16.75c3.19,5.38,7.31,7.09,10.39,3.66s2.51-9.45-.65-14.79c-2.92-4.93-7.19-7.22-10.35-3.69S423.29,506.48,426.45,511.82Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M436,478.25l4.62-5.15,13.19,22.26,8.09-9,3.09,5.22-12.71,14.16Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M455.05,457l9.38,15.82c2.8,4.73,5.55,5.65,7.91,3s2.39-6.45-.49-11.3l-9.37-15.82,4.58-5.11L476.19,459c5,8.47,4.26,16-1.05,22-5.13,5.72-10.42,5.25-15.62-3.51l-9.08-15.33Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M478.07,440l-5.46,6.08-3.1-5.21,15.63-17.43,3.1,5.22-5.55,6.19,13.19,22.26-4.62,5.14Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M492.21,415.57,508.5,443l-4.62,5.15-16.29-27.48Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M522.79,403.82c5.33,9,4.53,19-1.42,25.61s-13.21,4.5-17.84-3.33c-4.89-8.23-4.65-18.72,1.36-25.41C511.13,393.72,518.29,396.24,522.79,403.82Zm-14.48,16.75c3.19,5.38,7.31,7.09,10.38,3.66s2.52-9.45-.64-14.78c-2.93-4.94-7.19-7.23-10.36-3.7S505.14,415.23,508.31,420.57Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M534.12,414.47,517.83,387l5.38-6,10.19,5.36a68.78,68.78,0,0,1,8.9,5.72l.09-.1a122.63,122.63,0,0,1-7.18-11l-4.76-8,4.22-4.71L551,395.71l-4.83,5.38-10.63-5.76a84,84,0,0,1-9.27-5.76l-.07.14c2.27,3.49,4.62,7.3,7.28,11.78l4.91,8.27Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M551.3,384.69a13.86,13.86,0,0,0,6.12-4c2.11-2.35,2.53-4.79,1.46-6.57s-2.56-1.62-5.7-.08c-4.32,2.18-8,2.11-10.39-1.89-2.78-4.69-2-11.5,2.78-16.85a15.53,15.53,0,0,1,6-4.4l1.94,6.16a11.69,11.69,0,0,0-5,3.44c-2,2.21-2.22,4.52-1.38,6,1,1.74,2.64,1.24,6.06-.34,4.66-2.2,7.85-1.56,10.14,2.31,2.74,4.6,2.43,11.44-3.15,17.67-2.33,2.59-5.1,4.33-6.76,4.75Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M565.67,333.68,582,361.15l-4.62,5.14-16.28-27.47Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M586,356.71l-16.29-27.47,5.37-6,10.19,5.36a66.64,66.64,0,0,1,8.9,5.71l.09-.1a124.85,124.85,0,0,1-7.18-11l-4.76-8,4.22-4.7,16.29,27.47L598,343.32l-10.63-5.76A87,87,0,0,1,578,331.8l-.06.14c2.27,3.49,4.62,7.3,7.28,11.79l4.91,8.27Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M621.24,316.07a22.83,22.83,0,0,1-4.52,7c-7,7.84-14.15,6-18.78-1.86a22.76,22.76,0,0,1,2.44-27c2.39-2.65,4.58-4,5.74-4.35l2,6a12.34,12.34,0,0,0-4.47,3.28c-3.65,4.07-4.72,10.21-1.1,16.33,3.26,5.5,7.73,6.28,11.84,1.7a20.36,20.36,0,0,0,3.3-5.18Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/><path d="M622.29,310.71a5.85,5.85,0,0,1,.47-6.82c1.59-1.78,3.6-1.44,4.93.8a5.8,5.8,0,0,1-.5,6.78C625.62,313.21,623.57,312.87,622.29,310.71Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3"/></g><path id="pentagon_curvedTop" d="M606,253.71,362,517.14,116.29,253.71l115.92-81.15a43.62,43.62,0,0,1,25-7.89h212a31.23,31.23,0,0,1,17.94,5.67Z" transform="translate(-85.34 -142.55)" fill="none" stroke="#2d3078" stroke-linecap="square" stroke-miterlimit="10" stroke-width="27"/><g id="triangle_lines"><path id="side_lineR" d="M606,253.71,362,517.14" transform="translate(-85.34 -142.55)" fill="none" stroke="#2d3078" stroke-linecap="round" stroke-miterlimit="10" stroke-width="27"/><path id="side_lineL" d="M362,517.14,116.29,253.71" transform="translate(-85.34 -142.55)" fill="none" stroke="#2d3078" stroke-linecap="round" stroke-miterlimit="10" stroke-width="27"/><path id="top_line2" d="M243.47,253.71H479.13" transform="translate(-85.34 -142.55)" fill="none" stroke="#2d3078" stroke-linecap="round" stroke-linejoin="round" stroke-width="27"/><path id="top_line3" d="M479.13,253.71H606" transform="translate(-85.34 -142.55)" fill="none" stroke="#2d3078" stroke-linecap="round" stroke-linejoin="round" stroke-width="27"/><path id="top_line1" d="M116.29,253.71H243.47" transform="translate(-85.34 -142.55)" fill="none" stroke="#2d3078" stroke-linecap="round" stroke-linejoin="round" stroke-width="27"/></g><g id="SA_letters_group"><g clip-path="url(#clip-path)"><g id="SA_letters_div-2" data-name="SA_letters_div"><path id="SA_letters" d="M465.87,386c-11.51-39.93-10.49-81.18-25.79-115.63-6.4,4.76-17,12.5-17.21,12.85-.07.05-.05,0,0,0,2.77-4.58,5.27-9.37,8.48-13.61,8.46-11.19,5-28.66-9.27-36.1-10.66-5.58-22.7-8.65-34.32-12.22-8.2-2.52-17-3.34-25-6.26-4.06-1.47-7-5.91-10.5-9,3.74-3,7.07-7.51,11.29-8.61,17.09-4.46,32.35.27,45,12.33,9.93,9.46,21.09,11.55,33.77,7.57,18.15-5.7,22.84-14.35,19.54-39.1H288l0,.06a67,67,0,0,1,10.14,1.55c-3.9,2-7.69,3.43-10.83,5.72-10.86,7.93-22.91,14.87-31.87,24.62C243.28,223.3,244.68,237,259,247.64c11.26,8.33,24.49,14.24,37.37,20.07,7.74,3.5,16.59,4.45,24.71,7.21,2.56.87,5.95,3.79,6.1,6s-2.84,5.4-5.25,6.75c-20.77,11.64-53.51,2.9-65.52-17.22-7.56-12.65-16.1-15.09-29.65-8.45-11.22,5.49-17.86,19.88-17,34.37.8,13.75,10.74,16.71,21.06,19,45.94,10.31,91.6,9.24,136.85-4.17,6.06-1.8,12.07-3.77,18.15-5.53.69-.2,1.64.46,6.19,1.91-14,4.28-25.28,6.86-35.8,11.23-8.83,3.67-17.92,8.17-24.87,14.53-12.67,11.58-23.11,25.6-35.88,37.05-8.14,7.31-18.64,12.1-28.43,17.38-1.65.88-5.23.33-7.23-.9l-.76,0,23.58,25.24.13-.05-1-1.06c13.2-.94,23.41-1.27,33.5-2.55a39.35,39.35,0,0,0,14-4.71c11.19-6.26,10.75-12.12-1-20.29,6.35-12.14,45.34-15.18,61.89-3.34-4.37,2.5-8.38,4.05-11.4,6.71-4.13,3.62-7.51,8.11-11.2,12.22,4.58,3,9,8.28,13.79,8.71,16.61,1.47,33.37,1.27,50.07,1.69,2.19.06,6.37,0,12.63,0m-87-67,26.43-30.21c3.9,11.85,6.57,20,9.95,30.21Z" transform="translate(-85.34 -142.55)" fill="#2c3278"/><path id="SA_and" d="M415.41,307.44c-.52-.82-1-1.65-1.6-2.64a40.58,40.58,0,0,1-15.65,4.09c-12,.58-14-4.82-10.79-10.29,3.05-5.19,9-9.1,16-11.7l.14-.24c-1-1.76-.95-4.6.68-7.39,2.92-4.95,11-10.61,21-11.09,7.67-.37,11.4,2.91,8.09,8.56-2.33,4-7.25,7.49-15.71,10.55l-.22.24c1.41,2.37,2.75,5.07,4,6.94a53.56,53.56,0,0,0,9.8-9.76l10-.48a65.52,65.52,0,0,1-17,15.31c1.34,2.37,2.7,4.8,4.26,7.27Zm-3.93-7.34a106,106,0,0,1-5.56-9.08c-2.75,1.27-5.58,3-7.08,5.61-1.95,3.32-.46,6,4.62,5.78A19.27,19.27,0,0,0,411.48,300.1ZM414.71,278a4.9,4.9,0,0,0,.08,5.49c4.78-2.15,7.5-3.76,8.83-6,1.1-1.87.89-3.84-2.05-3.69A9.09,9.09,0,0,0,414.71,278Z" transform="translate(-85.34 -142.55)" fill="#c3c3c3" stroke="#231f20" stroke-miterlimit="10" stroke-width="0.48"/></g></g></g></svg>
+  </div>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="src/assets/js/DrawSVGPlugin.min.js"></script>
+<script>
+    TweenLite.set([SA_logo_svg], {visibility: "visible"});
+    // side_lineL
+    tl_side_lineL = new TimelineMax({});
+    tl_side_lineL
+        .fromTo(side_lineL, .5, {drawSVG: "100% 100%"}, {drawSVG: "100% 0%", ease: Linear.easeNone}, "disorder")
+        .from(side_lineL, .8, {xPercent: -50, yPercent: -71, ease: Power2.easeInOut}, "disorder")
+        .to(side_lineL, .5, {drawSVG: "0% 0%", ease: Sine.easeOut}, "disorder+=.5")
+        .to(side_lineL, .2, {drawSVG: "100% 0%", ease: Sine.easeIn}, "disorder+=1")
+
+    ;
+    // side_lineR
+    tl_side_lineR = new TimelineMax({});
+    tl_side_lineR
+        .fromTo(side_lineR, .5, {drawSVG: "100% 100%"}, {drawSVG: "50% 0%", ease: Linear.easeNone}, "side_lineR")
+        .from(side_lineR, .8, {xPercent: -50, yPercent: 72, ease: Power2.easeInOut}, "side_lineR")
+        .to(side_lineR, .5, {strokeWidth: 10, ease: Power2.easeInOut, yoyo: true, repeat: 1}, "side_lineR")
+        .fromTo(side_lineR, .2, {drawSVG: "50% 0%"}, {
+            drawSVG: "100% 0%",
+            ease: Sine.easeOut,
+            immediateRender: false
+        }, "side_lineR+=.8")
+
+    ;
+    // open
+    tl_open1 = new TimelineMax({});
+    tl_open1
+        .fromTo(top_line2, .4, {x: -500}, {
+            strokeWidth: 5,
+            x: 550,
+            ease: Circ.easeInOut,
+            repeat: 1,
+            yoyo: true
+        }, .2, "open1")
+
+    ;
+    // open
+    tl_open2 = new TimelineMax({});
+    tl_open2
+
+        .from(top_line1, .5, {strokeWidth: 15, x: -450, ease: Power2.easeInOut}, "disorder")
+        .from(top_line3, .8, {strokeWidth: 10, x: 380, ease: Power2.easeInOut}, "disorder")
+        .to(top_line2, .8, {strokeWidth: 10, x: -85, ease: Back.easeInOut.config(2)}, "disorder+=.5")
+
+        .to(top_line2, .5, {strokeWidth: 27, y: -229, ease: Back.easeOut}, "disorder+=1.3")
+        .to(top_line2, .4, {rotation: 10, ease: Sine.easeOut, repeat: 1, yoyo: true}, "disorder+=1.3")
+        .to(top_line1, .5, {rotation: -35, transformOrigin: "0% 50%", ease: Sine.easeOut}, "disorder+=.5")
+        .to(top_line3, .8, {rotation: 35, transformOrigin: "100% 50%", ease: Sine.easeInOut}, "disorder+=.8")
+        .to(pentagon_curvedTop, .3, {opacity: 1, ease: Linear.easeNone}, "disorder+=2.1")
+        .to([top_line1, top_line2, top_line3, side_lineR, side_lineL], .3, {
+            opacity: 0,
+            ease: Linear.easeNone
+        }, "disorder+=2.1")
+
+        .from(SA_letters, 1.5, {scale: 6, transformOrigin: "70% 30%", ease: Power4.easeOut}, "disorder+=2")
+        .from(SA_letters, 2, {opacity: 0, ease: Linear.easeNone}, "disorder+=1.5")
+        .from(SA_and, .3, {opacity: 0, ease: Linear.easeNone}, "disorder+=2.8")
+
+        .from(gray_bg, 1, {opacity: 0, ease: Linear.easeNone}, "disorder+=3")
+        .from(solutions_txt, .6, {opacity: 0, ease: Sine.easeOut}, "disorder+=.2")
+        .from(solutions_txt, 2, {
+            scale: .8,
+            rotation: 48,
+            y: -90,
+            x: -150,
+            transformOrigin: "center",
+            ease: Power4.easeInOut
+        }, "disorder+=.5")
+
+    ;
+    // //SUPREME TIMELINE delays
+    var sa_logoTL = new TimelineMax({paused: true});
+    sa_logoTL.add(tl_side_lineL, 0).add(tl_side_lineR, .5).add(tl_open1, 0).add(tl_open2, .8);
+
+    $(function() {
+        sa_logoTL.play(0);
+    });
+
+</script>
+
+</body>
+</html>

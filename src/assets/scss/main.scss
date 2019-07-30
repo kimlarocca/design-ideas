@@ -1,0 +1,103 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+$primary-font-family: 'Roboto', sans-serif;
+$breakpoint-tablet: 1200px;
+$breakpoint-mobile: 768px;
+$nav-breakpoint: 1100px;
+
+//Colors
+$background-color: #fff;
+$light-gray: #f0f0f0;
+$medium-gray: #ccc;
+$dark-gray: #4d4d4f;
+$primary-color: #2c3e50;
+$secondary-color: #57B8FF;
+$tertiary-color: #FE6847;
+$quaternary-color: #005199;
+
+//Links
+$link-color: $tertiary-color;
+$link-decoration: none;
+$link-color-hover: $primary-color;
+$link-decoration-hover: none;
+
+@import "reset";
+@import "sea";
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body,
+html {
+  background-color: white;
+  font-family: $primary-font-family;
+  color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:visited,
+a:active {
+  color: $link-color;
+  text-decoration: $link-decoration;
+  transition: .2s all linear;
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: $link-decoration-hover;
+    cursor: pointer;
+    &.button {
+      text-decoration: none;
+    }
+  }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $secondary-color;
+  margin: 40px 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: $breakpoint-tablet;
+  margin: auto;
+  @media all and (max-width: $breakpoint-tablet) {
+    width: calc(100% - 40px);
+  }
+}
+
+.left-margin {
+  margin-right: 20px;
+  @media all and (max-width: $breakpoint-mobile) {
+    margin-right: 0;
+  }
+}
+
+.right-margin {
+  margin-left: 20px;
+  @media all and (max-width: $breakpoint-mobile) {
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: $breakpoint-tablet) {
+
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+
+}
